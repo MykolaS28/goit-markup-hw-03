@@ -189,8 +189,11 @@ img {
 }
 .header-container {
     display: flex;
-    border-bottom: 1px solid #ECECEC;
+    
    
+}
+header {
+    border-bottom: 1px solid #ECECEC;
 }
 .header-nav {
     display: flex;
