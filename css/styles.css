@@ -9,6 +9,7 @@
 }
 
 .btn-all {
+    display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 500;font-size: 16px;
     line-height: 1.5;
@@ -16,6 +17,7 @@
     color: var(--text-cl);
     background-color: var(--back-btn-cl);
     cursor: pointer;
+    
 }
 .images-text {
     font-weight: 500;
@@ -47,7 +49,9 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:var(--text-cl);   
+    color:var(--text-cl);  
+    margin-right: 76px;
+    
 }
 .link {
     text-decoration: none;
@@ -57,6 +61,8 @@ body {
 }
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .menu-link {
     font-weight: 500;
@@ -91,8 +97,11 @@ color: var(--hover-cl);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--back-cl);
+    width: 496px;
+    margin-bottom: 48px;
 }
 .btn-order {
+    display: block;
     background-color: #4D5AE5;
     font-family: "Roboto",sans-serif;
     font-weight: 500;
@@ -101,10 +110,14 @@ color: var(--hover-cl);
     letter-spacing: 0.04em;
     color: var(--back-cl);
     cursor: pointer;
+    min-width: 169px;
+    min-height: 56px;
+    border-radius: 4px;
 }
 .btn-order:hover, .btn-order:focus {
     color: var(--back-cl);
     background-color: var(--hover-cl);
+    
 }
 .sectionhh{
     visibility: hidden;
@@ -121,6 +134,7 @@ color: var(--hover-cl);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--contact-cl);
+    width: 264px;
 }
 .secthh {
     font-size: 36px;
@@ -129,12 +143,14 @@ color: var(--hover-cl);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--logo-span);
+   margin-bottom: 72px;
 }
 .sectionteam {
     background-color:var(--back-btn-cl);
 }
 .team-back {
     background-color: #FFFFFF;
+    text-align: center;
 }
 .end {
     background-color: var(--logo-span);
@@ -150,4 +166,94 @@ color: var(--hover-cl);
         line-height: 24px;
         letter-spacing: 0.02em;
         color: var(--back-btn-cl);
+        width: 264px;
+}
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.header-container {
+    display: flex;
+    border-bottom: 1px solid #ECECEC;
+   
+}
+.header-nav {
+    display: flex;
+    margin-right: auto;
+}
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.contact-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-nav-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.section-order {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.order-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-info {
+    display: flex;
+    gap: 24px;
+}
+.sectoin-what{
+    padding-top: 0;
+}
+.whatarewedoing {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 24px;
+}
+.section-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+.footer-logo {
+    display: block;
+    margin-bottom: 16px;
+}
+.btnflex {
+    
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.imgdev {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 24px;
+    margin-top: 72px;
 }
