@@ -13,6 +13,8 @@
     font-family: "Roboto", sans-serif;
     font-weight: 500;font-size: 16px;
     line-height: 1.5;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
     letter-spacing: 0.04em;
     color: var(--text-cl);
     background-color: var(--back-btn-cl);
@@ -108,6 +110,9 @@ color: var(--hover-cl);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
     color: var(--back-cl);
     cursor: pointer;
     min-width: 169px;
