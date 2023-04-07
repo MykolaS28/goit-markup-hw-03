@@ -248,12 +248,15 @@ img {
     
     display: flex;
     gap: 24px;
-    align-items: center;
+    
+    
 }
+
 .imgdev {
     display: flex;
     flex-wrap: wrap;
     row-gap: 40px;
     column-gap: 24px;
-    margin-top: 72px;
+    padding-top: 72px;
+    padding-bottom: 120px;
 }
