@@ -248,7 +248,7 @@ img {
     
     display: flex;
     gap: 24px;
-    
+    justify-content: center;
     
 }
 
@@ -259,4 +259,5 @@ img {
     column-gap: 24px;
     padding-top: 72px;
     padding-bottom: 120px;
+    
 }
