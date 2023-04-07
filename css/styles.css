@@ -19,6 +19,7 @@
     color: var(--text-cl);
     background-color: var(--back-btn-cl);
     cursor: pointer;
+    padding: 12px 24px;
     
 }
 .images-text {
