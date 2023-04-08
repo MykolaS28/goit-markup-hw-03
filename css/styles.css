@@ -100,7 +100,7 @@ color: var(--hover-cl);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--back-cl);
-    width: 496px;
+    max-width: 496px;
     margin-bottom: 48px;
 }
 .btn-order {
@@ -144,6 +144,7 @@ color: var(--hover-cl);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--logo-span);
+    margin-bottom: 8px;
 }
 .info-p {
     font-size: 16px;
@@ -190,6 +191,7 @@ color: var(--hover-cl);
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    align-items: center;
 }
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
@@ -208,12 +210,13 @@ img {
     
    
 }
-header {
-    border-bottom: 1px solid #ECECEC;
+.header-border {
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
     display: flex;
     margin-right: auto;
+    align-items: center;
 }
 .header-list {
     display: flex;
