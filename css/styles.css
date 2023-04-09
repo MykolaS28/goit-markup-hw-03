@@ -147,7 +147,7 @@ color: var(--hover-cl);
     letter-spacing: 0.02em;
     color: var(--logo-span);
     margin-bottom: 8px;
-    text-align: center;
+    
 }
 
 
@@ -157,6 +157,22 @@ color: var(--hover-cl);
     letter-spacing: 0.02em;
     color: var(--contact-cl);
     width: 264px;
+    
+}
+.info-4 {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--contact-cl);
+        text-align: center;
+}
+.section4 {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--logo-span);
+    margin-bottom: 8px;
     text-align: center;
 }
 .secthh {
@@ -289,6 +305,7 @@ img {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
+    
     margin-bottom: 72px
     
     
