@@ -249,6 +249,7 @@ img {
     display: flex;
     gap: 24px;
 }
+
 .sectoin-what{
     padding-top: 0;
 }
@@ -287,4 +288,7 @@ img {
 .section-all-btn {
     padding-top: 96px;
     padding-bottom: 120px;
+}
+.section-info-list {
+    width: calc((100% - 72px) / 4);
 }
