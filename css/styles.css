@@ -149,6 +149,8 @@ color: var(--hover-cl);
     margin-bottom: 8px;
     text-align: center;
 }
+
+
 .info-p {
     font-size: 16px;
     line-height: 1.5;
@@ -288,6 +290,7 @@ img {
     row-gap: 48px;
     column-gap: 24px;
     padding-top: 72px;
+    margin-bottom: 72px
     
     
 }
