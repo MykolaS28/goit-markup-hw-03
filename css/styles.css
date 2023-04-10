@@ -55,7 +55,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--text-cl);  
-    margin-right: 76px;
+    
     
 }
 .link {
@@ -256,6 +256,10 @@ img {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
+    
+}
+.margin-logo {
+    margin-right: 76px;
 }
 .section-order {
     padding-top: 188px;
